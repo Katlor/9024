@@ -3,7 +3,7 @@
 
 int main(void){
     int n;
-    printf("Enter a number:");
+    printf("Enter a number: ");
     scanf("%d",&n);
 
     StackInit();
@@ -23,4 +23,5 @@ int main(void){
     }
     printf("\n");
     return 0;
+
 }
