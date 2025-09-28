@@ -13,8 +13,10 @@ int main(void) {
             printf("Goodbye!\n");
             break;
         }
-        printf("%d\n", mystrlen(s));
+        len=mystrlen(s);
+        printf("%d\n", len);
     }
     // -------------------------------
     return 0;
+
 }
